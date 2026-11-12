@@ -23,7 +23,7 @@
 <p class="date">Effective November 12, 2026</p>
 
 <div class="card">
-  <p><strong>In short:</strong> Read Aloud has no accounts, ads or analytics, and the developer never receives your data. Everything stays on your phone. The one exception is optional online reading: if you turn it on with your own Google Gemini key, page photos go straight from your phone to Google to be read.</p>
+  <p><strong>In short:</strong> Read Aloud has no accounts or ads, and the developer never receives your data. Your text, files and photos stay on your phone. Two things go to Google: anonymous diagnostics from Google's on-device text recognition library, and, only if you turn on optional online reading with your own Gemini key, page photos sent to Google to be read.</p>
 </div>
 
 <h2>What the app keeps on your phone</h2>
@@ -37,7 +37,10 @@
 <p>Your settings, your key and any saved photos are left out of Android cloud backups and phone-to-phone transfers.</p>
 
 <h2>Camera</h2>
-<p>The camera is used only to photograph pages you want read aloud. Text is recognized on the phone with Google ML Kit's on-device text recognition.</p>
+<p>The camera is used only to photograph pages you want read aloud. Text is recognized on the phone with Google ML Kit's on-device text recognition. Your photos and their text are not sent anywhere for this.</p>
+
+<h2>Diagnostics from Google ML Kit</h2>
+<p>The ML Kit library sends Google anonymous diagnostics: device and Android version details, the app's name and version, performance and error information, and a per-installation identifier that is not meant to identify you or your device. Google uses this to measure and improve ML Kit. It does not include your photos or text. See <a href="https://developers.google.com/ml-kit/android-data-disclosure">Google's ML Kit data disclosure</a>.</p>
 
 <h2>Files and shared text</h2>
 <p>PDF, Word and text files you open, and text shared to the app, are read on the phone. They are not uploaded anywhere.</p>
@@ -50,7 +53,7 @@
 <p>Speech comes from the text-to-speech engine chosen in your phone's settings. If you choose an online voice, that engine may send the text being read to its provider (for example Google) to make the speech. That is covered by the provider's own privacy policy.</p>
 
 <h2>Sharing and selling</h2>
-<p>Read Aloud does not sell or share your data, show ads, or use analytics or tracking.</p>
+<p>Read Aloud does not sell your data, show ads, or include advertising or tracking tools. The developer receives no data from the app.</p>
 
 <h2>Deleting your data</h2>
 <p>Delete any saved item from the app's home screen. Remove your Gemini key in Settings. Uninstalling the app deletes everything it stored on the phone. To manage or delete a Gemini key itself, use <a href="https://aistudio.google.com/apikey">Google AI Studio</a>.</p>
